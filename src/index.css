@@ -1,13 +1,56 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.inStock {
+  color: black;
+}
+.outOfStock {
+  color: red;
+}
+.table-head tr th {
+  font-size: 18px;
+}
+tbody tr th {
+  font-size: 12px;
+  font-weight: 400;
+}
+.searchandTable-container {
+  width: 60%;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+}
+.table-container {
+  border: black 2px solid;
+}
+tbody tr td {
+  border-bottom: black 1px solid;
+}
+.table-container {
+  width: 60%;
+  margin: 20px auto;
 }
